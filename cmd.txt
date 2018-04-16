@@ -1,0 +1,6 @@
+# house
+"C:\Program Files\Blender Foundation\Blender\blender.exe" -b "C:\Users\H3D_anhdv\Desktop\H3D-1326\house.blend" -P "C:\Users\H3D_anhdv\Desktop\H3D-1326\house_render.py" -F PNG -o //house -f 1
+# scene
+"C:\Program Files\Blender Foundation\Blender\blender.exe" -b "C:\Users\H3D_anhdv\Desktop\H3D-1326\scene.blend" -P "C:\Users\H3D_anhdv\Desktop\H3D-1326\scene_render.py" -F PNG -o //scene -f 1
+# merge
+"C:\Program Files\Blender Foundation\Blender\blender.exe" -b "C:\Users\H3D_anhdv\Desktop\H3D-1326\merge.blend" -P "C:\Users\H3D_anhdv\Desktop\H3D-1326\merge_house_scene.py" -F JPEG -o //merge -f 1
